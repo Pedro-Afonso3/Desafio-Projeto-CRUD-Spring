@@ -15,6 +15,10 @@ public class Usuario {
     @Column(length = 10)
     private String senha;
 
+    public Integer getId() {
+        return id;
+    }
+
     public String getNome() {
         return nome;
     }
