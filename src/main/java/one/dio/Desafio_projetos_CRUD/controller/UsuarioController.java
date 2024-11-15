@@ -7,8 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("usuar" +
-        "ios")
+@RequestMapping("usuarios")
 public class UsuarioController {
     @Autowired
     private UsuarioService usuarioService;
